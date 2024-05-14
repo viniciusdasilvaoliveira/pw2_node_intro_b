@@ -59,8 +59,7 @@ module.exports = class IdeiaController {
         if(req.query.order == 'old'){
             order= 'ASC'
         }else{
-            order = 'DESC
-            '
+            order = 'DESC'
         }
     }
 }
